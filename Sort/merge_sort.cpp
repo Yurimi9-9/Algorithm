@@ -32,7 +32,7 @@ void mergeSort(int a[], int first, int last)
 		mergeSort(a, first, mid);		// 1. 분할	: n/2로 나눔
 		mergeSort(a, mid+1, last);		// 	      	: O(log n)
 		merge(a, first, mid, last);		// 2. 정복	: 반으로 나눈 데이터 합치기
-										//			: n만큼 비교, O(n)
+							//			: n만큼 비교, O(n)
 	}
 }
 // 시간 복잡도 = O(n log n)		분할: O(log n) + 정복: O(n)
