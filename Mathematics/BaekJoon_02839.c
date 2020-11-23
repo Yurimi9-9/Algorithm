@@ -4,7 +4,7 @@
 int main()
 {
 	int N=0;
-	int i, j;		// i:5kg, j:3kg
+	int i, j;	// i:5kg, j:3kg
 
 	setvbuf(stdout, NULL, _IOFBF, 0);
 	scanf("%d", &N);
